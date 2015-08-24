@@ -1,0 +1,12 @@
+{
+  "name": "whm/HypeBundle",
+
+  "version": "0.0.1",
+  "description": "Symfony2 bundle for hyping/liking entities.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+
+  "autoload": {
+        "psr-4": { "whm\\HypeBundle\\": "" }
+    }
+}
