@@ -1,0 +1,15 @@
+whm_hype_hype:
+    path:     /hype/doHype/{type}/{identifier}
+    defaults: { _controller: whmHypeBundle:Default:hype }
+
+whm_hype_unhype:
+    path:     /hype/doUnHype/{type}/{identifier}
+    defaults: { _controller: whmHypeBundle:Default:unHype }
+
+whm_hype_isLiked:
+    path:     /hype/isLiked/
+    defaults: { _controller: whmHypeBundle:Default:isLiked }
+
+whm_hype_likeCount:
+    path:     /hype/likeCount/
+    defaults: { _controller: whmHypeBundle:Default:getLikeCount }

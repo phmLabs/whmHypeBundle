@@ -1,0 +1,4 @@
+services:
+#    whm_hype.example:
+#        class: whm\HypeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
