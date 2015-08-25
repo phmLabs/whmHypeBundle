@@ -45,9 +45,7 @@ class Hype
 
     /**
      * @var \DateTime $created
-     *
-     * @Gedmo\Timestampable(on="create")
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(name="created", type="datetime")
      */
     private $created;
 
