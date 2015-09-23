@@ -3,10 +3,9 @@
 namespace whm\HypeBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
- * Hype
+ * Hype.
  *
  * @ORM\Table()
  * @ORM\Entity(repositoryClass="whm\HypeBundle\Entity\HypeRepository")
@@ -14,7 +13,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 class Hype
 {
     /**
-     * @var integer
+     * @var int
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -44,15 +43,15 @@ class Hype
     private $type;
 
     /**
-     * @var \DateTime $created
+     * @var \DateTime
      * @ORM\Column(name="created", type="datetime")
      */
     private $created;
 
     /**
-     * Get id
+     * Get id.
      *
-     * @return integer
+     * @return int
      */
     public function getId()
     {
@@ -60,7 +59,7 @@ class Hype
     }
 
     /**
-     * Set user
+     * Set user.
      *
      * @param string $user
      *
@@ -74,7 +73,7 @@ class Hype
     }
 
     /**
-     * Get user
+     * Get user.
      *
      * @return string
      */
@@ -122,7 +121,4 @@ class Hype
     {
         $this->created = $created;
     }
-
-
 }
-

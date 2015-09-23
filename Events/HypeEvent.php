@@ -15,6 +15,8 @@ class HypeEvent extends Event
     }
 
     /**
+     * Returns the hype.
+     *
      * @return Hype
      */
     public function getHype()
