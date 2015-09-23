@@ -1,7 +1,6 @@
 {
   "name": "whm/hypebundle",
 
-  "version": "0.0.1",
   "description": "Symfony2 bundle for hyping/liking entities.",
   "type": "symfony-bundle",
   "license": "MIT",
